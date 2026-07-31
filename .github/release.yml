@@ -1,2 +1,11 @@
 changelog:
-  categories: [this is not valid
+  exclude:
+    labels: [ignore-for-release]
+    authors: [dependabot]
+  categories:
+    - title: Features
+      labels: [feature]
+    - title: Bug Fixes
+      labels: [bug]
+    - title: Other
+      labels: ["*"]
